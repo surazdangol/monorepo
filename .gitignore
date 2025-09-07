@@ -1,0 +1,94 @@
+# ------------------------------
+# Bazel
+# ------------------------------
+bazel-*
+.bazelrc.user
+.bazelbuild/
+.bazel-cache/
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+
+# ------------------------------
+# Java / Maven
+# ------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# ------------------------------
+# Python / Poetry
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.poetry/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+
+# ------------------------------
+# Node.js / TypeScript (pnpm)
+# ------------------------------
+node_modules/
+dist/
+build/
+.npm/
+.npmrc
+.pnpm-debug.log
+.pnpm-store/
+*.tsbuildinfo
+
+# ------------------------------
+# IDEs / Editors
+# ------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.ipr
+*.iws
+
+# ------------------------------
+# OS Generated
+# ------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# CI/CD & Temp Files
+# ------------------------------
+*.log
+*.tmp
+*.bak
+*.lock
+coverage/
+coverage-final.json
+lcov.info
+
+# ------------------------------
+# Docker
+# ------------------------------
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
